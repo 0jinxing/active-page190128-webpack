@@ -1,0 +1,97 @@
+.bus {
+  display: block;
+  width: 60vw;
+  position: absolute;
+  right: -60vw;
+  bottom: 28vh;
+}
+
+.gas {
+  display: block;
+  width: 8vw;
+  position: absolute;
+  right: -62vw;
+  bottom: 54vw;
+}
+
+.p1 .master {
+  width: 22vw;
+  height: 35.372881vw;
+  background-image: url("../assets/零部件_p1-2主人公背影.png");
+  background-size: 22vw 35.372881vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50vw;
+  bottom: 12vh;
+}
+
+.p1 .dialog-right {
+  width: 80vw;
+  display: block;
+  position: absolute;
+  margin: 8vh 8vw;
+  right: 0;
+  bottom: 0;
+}
+
+.p2 .master {
+  display: block;
+  position: absolute;
+  width: 24vw;
+  left: 48vw;
+  bottom: 23vh;
+}
+
+.p3 .dialog-left,
+.p3 .dialog-right {
+  margin: 8vh 8vw;
+  width: 80vw;
+  position: absolute;
+  opacity: 0;
+}
+
+.p3 .dialog-left {
+  top: 0;
+  left: 0;
+}
+
+.p3 .dialog-right {
+  bottom: 0;
+  right: 0;
+}
+
+.p3 .btn-g {
+  width: 60vw;
+  margin: 20vh auto;
+}
+
+.p3 .img-btn {
+  width: 100%;
+  margin-bottom: 4vh;
+}
+
+.p4 .share-dialog {
+  width: 80vw;
+  height: 60.501792115vw;
+  background-image: url("../assets/提示框_p5-2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 36vh;
+}
+.share-btn-g {
+  width: 56vw;
+  margin: 0 auto;
+  padding-top: 30vw;
+}
+
+.p4 .share-btn-wechat,
+.p4 .share-btn-friend {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  float: left;
+  margin: 4vw;
+}

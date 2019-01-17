@@ -1,0 +1,13 @@
+.p4.activity .share-dialog {
+  animation: p4-share-dialog 6s;
+}
+
+@keyframes p4-share-dialog {
+  0% {
+    transform: translateY(-200vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

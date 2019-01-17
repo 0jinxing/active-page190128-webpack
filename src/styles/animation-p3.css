@@ -1,0 +1,71 @@
+.p3.activity {
+  animation: p3-background 10s cubic-bezier(0.87, -0.04, 0.76, 0.84);
+}
+
+.p3.activity .btn-g {
+  animation: p3-btn-g 10s;
+}
+
+.p3.activity .dialog-left {
+  animation: p3-dialog-left 6s;
+}
+
+.p3.activity .dialog-right {
+  animation: p3-dialog-right 6s;
+}
+
+@keyframes p3-dialog-left {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p3-dialog-right {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p3-btn-g {
+  0% {
+    transform: translateY(-100vh);
+  }
+
+  50% {
+    transform: translateY(-100vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes p3-background {
+  0% {
+    background-image: url("../assets/背景p3-1.png");
+  }
+
+  25% {
+    background-image: url("../assets/背景p3-2.png");
+  }
+
+  50% {
+    background-image: url("../assets/背景p3-3.png");
+  }
+
+  100% {
+    background-image: url("../assets/背景p3-4.png");
+  }
+}

@@ -1,0 +1,36 @@
+.p2.activity {
+  animation: p2-background 4s;
+}
+
+.p2.activity .master {
+  animation: p2-master 4s;
+
+}
+
+@keyframes p2-background {
+  0% {
+    background-image: url("../assets/背景p2-1.png");
+  }
+
+  50% {
+    background-image: url("../assets/背景p2-2.png");
+  }
+
+  100% {
+    background-image: url("../assets/背景p2-3.png");
+  }
+}
+
+@keyframes p2-master {
+  0% {
+    width: 24vw;
+    left: 48vw;
+    bottom: 12vh;
+  }
+
+  100% {
+    width: 24vw;
+    left: 48vw;
+    bottom: 23vh;
+  }
+}

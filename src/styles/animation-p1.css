@@ -1,0 +1,73 @@
+.p1.activity .bus {
+  animation: p1-bus 4s cubic-bezier(0.47, 0, 1, 0.63);
+}
+
+.p1.activity .gas {
+  animation: p1-gas 4s cubic-bezier(0.47, 0, 1, 0.63);
+}
+
+.p1.activity .master {
+  animation: p1-master 2s;
+}
+
+.p1.activity .dialog-right {
+  animation: p1-dialog-right 6s cubic-bezier(0.87, -0.04, 0.76, 0.84);
+}
+
+@keyframes p1-dialog-right {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p1-master {
+  0% {
+    background-image: url("../assets/零部件_p1主人公背影.png");
+  }
+
+  100% {
+    background-image: url("../assets/零部件_p1主人公背影.png");
+  }
+}
+
+@keyframes p1-bus {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: -60vw;
+  }
+}
+
+@keyframes p1-gas {
+  0% {
+    right: 62vw;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    right: 2vw;
+  }
+}
