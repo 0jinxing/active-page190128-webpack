@@ -35,6 +35,16 @@
   bottom: 0;
 }
 
+.p1 .headimg {
+  width: 11.4vw;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  margin: 8vh 8vw;
+  right: 0;
+  bottom: 0;
+}
+
 .p2 .master {
   display: block;
   position: absolute;
@@ -44,7 +54,8 @@
 }
 
 .p3 .dialog-left,
-.p3 .dialog-right {
+.p3 .dialog-right,
+.p3 .headimg {
   margin: 8vh 8vw;
   width: 80vw;
   position: absolute;
@@ -56,19 +67,72 @@
   left: 0;
 }
 
-.p3 .dialog-right {
+.p3 .dialog-right,
+.p3 .headimg {
   bottom: 0;
   right: 0;
 }
 
+.p3 .headimg {
+  width: 11.4vw;
+  border-radius: 50%;
+}
+
 .p3 .btn-g {
   width: 60vw;
-  margin: 20vh auto;
+  margin: 32% auto;
 }
 
 .p3 .img-btn {
   width: 100%;
+  height: 17.804347826vw;
+  border-radius: 4px;
   margin-bottom: 4vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.p3 .img-btn-1 {
+  background-image: url("../assets/横幅_P4-1a.png")
+}
+
+.p3 .img-btn-2 {
+  background-image: url("../assets/横幅_P4-2a.png")
+}
+
+.p3 .img-btn-3 {
+  background-image: url("../assets/横幅_P4-3a.png")
+}
+
+.p3 .img-btn-4 {
+  background-image: url("../assets/横幅_P4-4a.png");
+  position: relative;
+}
+
+.p3 .img-btn-4 input {
+  border: 0;
+  width: 60vw;
+  text-align: center;
+  font-size: 26px;
+  margin: 0 auto;
+  outline: 0;
+  position: absolute;
+  left: 0;
+  bottom: 5vw;
+}
+
+.p3 .img-btn-1:hover {
+  background-image: url("../assets/横幅_P4-1b.png")
+}
+
+.p3 .img-btn-2:hover {
+  background-image: url("../assets/横幅_P4-2b.png")
+}
+
+.p3 .img-btn-3:hover {
+  background-image: url("../assets/横幅_P4-3b.png")
 }
 
 .p4 .share-dialog {
@@ -81,6 +145,7 @@
   margin: 0 auto;
   margin-top: 36vh;
 }
+
 .share-btn-g {
   width: 56vw;
   margin: 0 auto;
@@ -94,4 +159,9 @@
   display: block;
   float: left;
   margin: 4vw;
+}
+
+.party-name {
+  color: #fff;
+  text-align: center;
 }

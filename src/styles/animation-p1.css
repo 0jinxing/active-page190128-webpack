@@ -10,7 +10,8 @@
   animation: p1-master 2s;
 }
 
-.p1.activity .dialog-right {
+.p1.activity .dialog-right,
+.p1.activity .headimg {
   animation: p1-dialog-right 6s cubic-bezier(0.87, -0.04, 0.76, 0.84);
 }
 

@@ -56,14 +56,6 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 80,
-    proxy: {
-      '/api': {
-        target: 'https://server.wenliaokeji.com',
-        pathRewrite: { '^/api': '' },
-        changeOrigin: true,
-        secure: true,
-      }
-    }
+    port: 3000
   }
 };

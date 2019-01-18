@@ -10,7 +10,8 @@
   animation: p3-dialog-left 6s;
 }
 
-.p3.activity .dialog-right {
+.p3.activity .dialog-right,
+.p3.activity .headimg {
   animation: p3-dialog-right 6s;
 }
 
